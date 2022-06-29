@@ -30,5 +30,14 @@
 }
 
 .botao{
-    color: #A020F0;
+    font-weight: bold;
+    background-color:#da70d6;
+    border-radius: 4px;
+    transition: transform 200ms, box-shadow 200ms;
+    box-shadow: #A020F0 4px 4px 0px;
+
+}
+.botao:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #A020F0 0px 0px 0px;
 }
